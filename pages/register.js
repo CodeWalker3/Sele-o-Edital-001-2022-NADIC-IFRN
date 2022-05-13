@@ -13,24 +13,24 @@ const register = () =>{
       <div className="title">Criação de conta</div>
       <div className="subtitle">Vamos criar a sua conta:</div>
       <div className="input-container ic1">
-        <input id="firstname" className="input" type="text" placeholder=" " />
+        <input id="Name" className="input" type="text" placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="firstname" className="placeholder">First name</label>
+        <label htmlFor="Name" className="placeholder">Nome</label>
       </div>
       <div className="input-container ic2">
-        <input id="lastname" className="input" type="text" placeholder=" " />
+        <input id="cpf className="input" type="text" placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="lastname" className="placeholder">Last name</label>
-      </div>
-      <div className="input-container ic2">
-        <input id="password" className="input" type="password" placeholder=" " />
-        <div className="cut"></div>
-        <label htmlFor="password" className="placeholder">Password</label>
+        <label htmlFor="cpf" className="placeholder">CPF</label>
       </div>
       <div className="input-container ic2">
         <input id="password" className="input" type="password" placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="password" className="placeholder">Confirm Password</label>
+        <label htmlFor="password" className="placeholder">Senha</label>
+      </div>
+      <div className="input-container ic2">
+        <input id="password" className="input" type="password" placeholder=" " />
+        <div className="cut"></div>
+        <label htmlFor="password" className="placeholder">Confirmar senha</label>
       </div>
       <div className="input-container ic2">
         <input id="email" className="input" type="text" placeholder=" " />
