@@ -18,9 +18,9 @@ const register = () =>{
         <label htmlFor="Name" className="placeholder">Nome</label>
       </div>
       <div className="input-container ic2">
-        <input id="cpf className="input" type="text" placeholder=" " />
+        <input id="name" className="input" type="text" placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="cpf" className="placeholder">CPF</label>
+        <label htmlFor="name" className="placeholder">CPF</label>
       </div>
       <div className="input-container ic2">
         <input id="password" className="input" type="password" placeholder=" " />
