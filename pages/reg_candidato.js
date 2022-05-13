@@ -23,7 +23,7 @@ const reg_candidato = () =>{
         <label htmlFor="id" className="placeholder">CPF</label>
       </div>
       <div className="input-container ic2">
-        <input id="name" className="input" type="text placeholder=" " />
+        <input id="name" className="input" type="text" placeholder=" " />
         <div className="cut"></div>
         <label htmlFor="name" className="placeholder">Pleito concorrido</label>
       </div>
