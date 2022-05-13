@@ -13,9 +13,9 @@ const reg_candidato = () =>{
       <div className="title">Registro de candidato</div>
       <div className="subtitle">Vamos registrar o candidato:</div>
       <div className="input-container ic1">
-        <input id="firstname" className="input" type="text" placeholder=" " />
+        <input id="name" className="input" type="text" placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="firstname" className="placeholder">First name</label>
+        <label htmlFor="name" className="placeholder">Nome</label>
       </div>
       <div className="input-container ic2">
         <input id="id" className="input" type="text" placeholder=" " />
@@ -23,19 +23,19 @@ const reg_candidato = () =>{
         <label htmlFor="id" className="placeholder">CPF</label>
       </div>
       <div className="input-container ic2">
-        <input id="password" className="input" type="password" placeholder=" " />
+        <input id="name" className="input" type="text placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="password" className="placeholder">Password</label>
+        <label htmlFor="name" className="placeholder">Pleito concorrido</label>
       </div>
       <div className="input-container ic2">
-        <input id="password" className="input" type="password" placeholder=" " />
+        <input id="address" className="input" type="text" placeholder=" " />
         <div className="cut"></div>
-        <label htmlFor="password" className="placeholder">Confirm Password</label>
+        <label htmlFor="address" className="placeholder">Endereço</label>
       </div>
       <div className="input-container ic2">
-        <input id="email" className="input" type="text" placeholder=" " />
+        <input id="date" className="input" type="date" placeholder=" " />
         <div className="cut cut-short"></div>
-        <label htmlFor="email" className="placeholder">Email</label>
+        <label htmlFor="date" className="placeholder">Data de nascimento</label>
       </div>
       <button type="text" className="submit">SUBMIT</button>
     </div>
