@@ -23,12 +23,12 @@ const reg_pleito = () =>{
         <label htmlFor="number" className="placeholder">Qntd.max de candidatos</label>
       </div>
       <div className="input-container ic2">
-        <input id="date" className="input" type="password" placeholder=" " />
+        <input id="date" className="input" type="date" placeholder=" " />
         <div className="cut"></div>
         <label htmlFor="date" className="placeholder">Data inicial</label>
       </div>
       <div className="input-container ic2">
-        <input id="date" className="input" type="password" placeholder=" " />
+        <input id="date" className="input" type="date" placeholder=" " />
         <div className="cut"></div>
         <label htmlFor="date" className="placeholder">Data final</label>
       </div>
